@@ -14,6 +14,13 @@ if [ -f ~/$gitconfigfile ]
 then
   echo ".gitconfig already exists"
 else
+  echo "\nPlease enter name for git"
+  read name
+  echo "Please enter email for git"
+  read email
+
+  echo "[user]\nname = $name\nemail = $email" > ~/.gitprofile
+
   ln -s ~/dotfiles/$gitconfigfile ~/$gitconfigfile
   echo ".gitconfig linked"
 fi
@@ -25,7 +32,3 @@ else
   ln -s ~/dotfiles/$ohmyzshfile ~/$ohmyzshfile
   echo ".oh-my-zsh linked"
 fi
-
-git config --global user.name "Vasco Silva"
-git config --global user.email "vasco.silva@tekzenit.com"
-echo "git: user name and email configured"
