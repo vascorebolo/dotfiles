@@ -32,24 +32,21 @@ brew install rbenv
 
 # cask apps
 
-brew cask install atom
-brew cask install vlc
-brew cask install iterm2
-brew cask install dropbox
-brew cask install slack
-brew cask install appcleaner
-brew cask install firefox
-brew cask install sketch
-brew cask install skype
 brew cask install alfred
 brew cask install appcleaner
+brew cask install atom
 brew cask install devdogs
 brew cask install docker
 brew cask install dropbox
+brew cask install firefox
 brew cask install google-chrome
 brew cask install imageoptim
+brew cask install iterm2
 brew cask install postman
 brew cask install sequel-pro
+brew cask install sketch
+brew cask install skype
+brew cask install slack
 brew cask install spectacle
 brew cask install spotify
 brew cask install sublime-text
