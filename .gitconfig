@@ -1,6 +1,3 @@
-[user]
-	name = Name
-	email = email
 [push]
 	default = current
 [alias]
@@ -181,3 +178,6 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[user]
+	name = Vasco Silva
+	email = vasco.silva@tekzenit.com
