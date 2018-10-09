@@ -25,10 +25,10 @@ else
   echo ".gitconfig linked"
 fi
 
-if [ -f ~/$ohmyzshfile ]
-then
-  echo ".oh-my-zsh already exists"
-else
-  ln -s ~/dotfiles/$ohmyzshfile ~/$ohmyzshfile
-  echo ".oh-my-zsh linked"
-fi
+rm -rf ~/.oh-my-zsh/custom/plugins
+ln -s ~/dotfiles/.oh-my-zsh-custom/plugins ~/.oh-my-zsh/custom/plugins
+echo "oh-my-zsh plugins linked"
+
+rm -rf ~/.oh-my-zsh/custom/themes
+ln -s ~/dotfiles/.oh-my-zsh-custom/themes ~/.oh-my-zsh/custom/themes
+echo "oh-my-zsh themes linked"
