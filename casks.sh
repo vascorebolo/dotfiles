@@ -20,6 +20,7 @@ brew install wget
 brew install composer
 brew install mysql
 brew install yarn
+brew install git-sh
 
 
 # Updated python/pip
