@@ -4,15 +4,18 @@ ohmyzshfile=.oh-my-zsh
 
 if [ -f ~/$zshrcfile ]
 then
+  currentdate=$(date -j +"%s")
   echo "$zshrcfile already exists"
-else
-  ln -s ~/dotfiles/$zshrcfile ~/$zshrcfile
-  echo ".zshrc linked"
+  echo "renaming original file"
+  mv ~/$zshrcfile ~/$zshrcfile-$currentdate
 fi
+
+ln -s ~/dotfiles/$zshrcfile ~/$zshrcfile
+echo ".zshrc linked"
 
 if [ -f ~/$gitconfigfile ]
 then
-  echo ".gitconfig already exists"
+  echo "$gitconfigfile already exists"
 else
   echo "\nPlease enter name for git"
   read name
