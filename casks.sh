@@ -54,6 +54,7 @@ brew cask install sublime-text
 brew cask install transmission
 brew cask install virtualbox
 brew cask install vlc
+brew cask install mactex
 
 # Install zsh and set as default
 brew install zsh zsh-completions
