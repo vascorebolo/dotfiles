@@ -21,6 +21,7 @@ brew install composer
 brew install mysql
 brew install yarn
 brew install git-sh
+brew install diff-so-fancy
 
 
 # Updated python/pip
