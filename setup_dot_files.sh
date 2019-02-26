@@ -35,3 +35,6 @@ echo "oh-my-zsh plugins linked"
 rm -rf ~/.oh-my-zsh/custom/themes
 ln -s ~/dotfiles/.oh-my-zsh-custom/themes ~/.oh-my-zsh/custom/themes
 echo "oh-my-zsh themes linked"
+
+# run terminal commands to activate mac os x things
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder

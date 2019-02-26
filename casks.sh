@@ -23,7 +23,6 @@ brew install yarn
 brew install git-sh
 brew install diff-so-fancy
 
-
 # Updated python/pip
 brew install python
 pip install --upgrade setuptools
@@ -33,11 +32,9 @@ pip install --upgrade pip
 brew install rbenv
 
 # cask apps
-
 brew cask install alfred
 brew cask install appcleaner
 brew cask install atom
-brew cask install devdogs
 brew cask install docker
 brew cask install dropbox
 brew cask install firefox
@@ -59,6 +56,7 @@ brew cask install mactex
 
 # Install zsh and set as default
 brew install zsh zsh-completions
+
 pip chsh -s /usr/local/bin/zsh
 
 # Install GNU core utilities (those that come with OS X are outdated)
