@@ -94,6 +94,7 @@
 		lgppl = shortlog -s -n --all
 		brdr = push origin --delete
 		it = !git init && git commit -m “root” --allow-empty
+		resume = !"git log --since=16.hours --abbrev-commit --author=\"<$(git config user.email)>\" --format=%s --reverse"
 [color]
   diff = auto
   status = auto
