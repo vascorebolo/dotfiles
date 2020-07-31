@@ -34,7 +34,7 @@ brew install rbenv
 # cask apps
 brew cask install alfred
 brew cask install appcleaner
-brew cask install atom
+brew cask install vscode
 brew cask install docker
 brew cask install dropbox
 brew cask install firefox
@@ -46,12 +46,9 @@ brew cask install sequel-pro
 brew cask install sketch
 brew cask install skype
 brew cask install slack
-brew cask install spectacle
+brew cask install rectangle
 brew cask install spotify
-brew cask install sublime-text
 brew cask install transmission
-brew cask install virtualbox
-brew cask install vlc
 brew cask install mactex
 
 # Install zsh and set as default
