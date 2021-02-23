@@ -112,7 +112,7 @@
 [push]
     default = tracking
 [core]
-	excludesfile = /Users/vascosilva/.gitignore_global
+	excludesfile = /Users/vascorebolo/.gitignore_global
 	editor = vim
 
 [apply]
