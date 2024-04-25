@@ -112,7 +112,7 @@
 [push]
     default = tracking
 [core]
-	excludesfile = /Users/vascorebolo/.gitignore_global
+	excludesfile = /Users/rebvas02/.gitignore_global
 	editor = vim
 
 [apply]
@@ -168,9 +168,9 @@
     rebase = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [pager]
 	diff = diff-so-fancy | less --tabs=1,5 -RFX
@@ -181,3 +181,8 @@
 	process = git-lfs filter-process
 [include]
     path = ~/.gitprofile
+[user]
+	name = vascorebolo
+	email = vasco.rebolo@csgi.com
+[commit]
+	template = /Users/rebvas02/.stCommitMsg
